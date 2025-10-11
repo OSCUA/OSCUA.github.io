@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Open Systems Collective</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <h1>All Applications</h1>
+    <nav>
+      <button onclick="filterApps('all')">All</button>
+      <button onclick="filterApps('education')">Education</button>
+      <button onclick="filterApps('entertainment')">Entertainment</button>
+      <button onclick="filterApps('utility')">Utility</button>
+    </nav>
+  </header>
+
+  <main id="app-container">
+
+
+    <a href="https://oscua.github.io/Sorting-Algorithm-Visualizer/" class="app-card" data-category="education" data-language="python">
+      <div class="icon-container">
+        <img src="icons/python.svg" alt="Python" class="lang-icon" />
+      </div>
+      <h2>📊 Sorting Algorithm Visualizer</h2>
+      <p>Watch computer go beep and see colored bars.</p>
+    </a>
+
+    <div class="app-card" data-category="utility" data-language="none">
+      <div class="icon-container">
+        <img src="" alt="No Language" class="lang-icon" />
+      </div>
+      <h2>Placeholder</h2>
+      <p>Placeholder Description</p>
+    </div>
+
+    <!-- Add more apps here -->
+  </main>
+
+  <footer>
+    <p>🌀 Powered by Open Source Collective UA</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
