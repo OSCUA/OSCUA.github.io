@@ -11,8 +11,5 @@ const apps = [
     url: "https://oscua.github.io/de-picker/",
     language: "python"
   },
-  {
-    
-  }
 ];
 
