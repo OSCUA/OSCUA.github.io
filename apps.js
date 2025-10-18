@@ -11,5 +11,11 @@ const apps = [
     url: "https://oscua.github.io/de-picker/",
     language: "python"
   },
+  {
+    name: "Ashlock (In Development)",
+    description: "An open-source password protected encryption vault system.",
+    url: "https://github.com/OSCUA/Ashlock",
+    language: "python"
+  },
 ];
 
