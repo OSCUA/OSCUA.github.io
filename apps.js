@@ -16,6 +16,12 @@ const apps = [
     description: "An open-source password protected encryption vault system.",
     url: "https://github.com/OSCUA/Ashlock",
     language: "python"
+  },  
+  {
+    name: "osu! PP Calculator",
+    description: "A calculator made in Python that calculates the PP (performance points) of a play, both on osu!stable and osu!lazer.",
+    url: "https://github.com/OSCUA/ppcalc",
+    language: "python"
   },
 ];
 
