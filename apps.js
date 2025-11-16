@@ -26,7 +26,7 @@ const apps = [
   {
     name: "Tournament Brackets",
     description: "A simple Python application for managing tournament brackets with single/double elimination, round robin, and swiss rounds.",
-    url: "https://github.com/OSCUA/ppcalc",
+    url: "https://github.com/OSCUA/Tournament-Brackets",
     language: "python"
   },
 ];
